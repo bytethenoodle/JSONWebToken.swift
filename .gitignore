@@ -3,3 +3,4 @@ xcuserdata/
 .build/
 Packages/
 .DS_Store
+JWT.xcodeproj
