@@ -4,3 +4,4 @@ xcuserdata/
 Packages/
 .DS_Store
 JWT.xcodeproj
+/.swiftpm

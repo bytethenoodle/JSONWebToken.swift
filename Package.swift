@@ -1,9 +1,14 @@
-// swift-tools-version:4.0
-
+// swift-tools-version:5.0
+//
+// Use command "swift package generate-xcodeproj --xcconfig-overrides ./Sources/ios.xcconfig" to generate for iOS
+//
 import PackageDescription
 
 let package = Package(
     name: "JWT",
+    platforms: [
+        .iOS(.v10),
+    ],
     products: [
         .library(name: "JWT", targets: ["JWT"])
     ],
